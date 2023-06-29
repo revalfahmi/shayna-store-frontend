@@ -7,7 +7,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="breadcrumb-text product-more">
-                            <a href="./home.html"><i class="fa fa-home"></i> Home</a>
+                            <router-link to="/"><i class="fa fa-home"></i> Home</router-link>
                             <span>Detail</span>
                         </div>
                     </div>
@@ -75,6 +75,9 @@
             </div>
         </section>
         <!-- Product Shop Section End -->
+
+        <!-- Related Product Component -->
+        <related-product />
         <footer-shayna />
     </div>
 </template>
@@ -83,13 +86,15 @@
 import HeaderShayna from '@/components/HeaderShayna.vue'
 import FooterShayna from '@/components/FooterShayna.vue'
 import carousel from 'vue-owl-carousel';
+import RelatedProduct from '@/components/RelatedProduct.vue';
 
 export default {
     name: 'ProductView',
     components: {
         HeaderShayna,
         FooterShayna,
-        carousel
+        carousel,
+        RelatedProduct
     },
     data(){
         return {

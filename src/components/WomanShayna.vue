@@ -13,14 +13,14 @@
                                         <li class="w-icon active">
                                             <a href="#"><i class="icon_bag_alt"></i></a>
                                         </li>
-                                        <li class="quick-view"><a href="product.html">+ Quick View</a></li>
+                                        <li class="quick-view"><router-link to="/product">+ Quick View</router-link></li>
                                     </ul>
                                 </div>
                                 <div class="pi-text">
                                     <div class="catagory-name">Coat</div>
-                                    <a href="#">
+                                    <router-link to="/product">
                                         <h5>Mickey Baggy</h5>
-                                    </a>
+                                    </router-link>
                                     <div class="product-price">
                                         $14.00
                                         <span>$35.00</span>
@@ -34,14 +34,14 @@
                                         <li class="w-icon active">
                                             <a href="#"><i class="icon_bag_alt"></i></a>
                                         </li>
-                                        <li class="quick-view"><a href="#">+ Quick View</a></li>
+                                        <li class="quick-view"><router-link to="/product">+ Quick View</router-link></li>
                                     </ul>
                                 </div>
                                 <div class="pi-text">
                                     <div class="catagory-name">Shoes</div>
-                                    <a href="#">
+                                    <router-link to="/product">
                                         <h5>Guangzhou sweater</h5>
-                                    </a>
+                                    </router-link>
                                     <div class="product-price">
                                         $13.00
                                     </div>
@@ -54,14 +54,14 @@
                                         <li class="w-icon active">
                                             <a href="#"><i class="icon_bag_alt"></i></a>
                                         </li>
-                                        <li class="quick-view"><a href="#">+ Quick View</a></li>
+                                        <li class="quick-view"><router-link to="/product">+ Quick View</router-link></li>
                                     </ul>
                                 </div>
                                 <div class="pi-text">
                                     <div class="catagory-name">Towel</div>
-                                    <a href="#">
+                                    <router-link to="/product">
                                         <h5>Pure Pineapple</h5>
-                                    </a>
+                                    </router-link>
                                     <div class="product-price">
                                         $34.00
                                     </div>
@@ -74,7 +74,7 @@
                                         <li class="w-icon active">
                                             <a href="#"><i class="icon_bag_alt"></i></a>
                                         </li>
-                                        <li class="quick-view"><a href="#">+ Quick View</a></li>
+                                        <li class="quick-view"><router-link to="/product">+ Quick View</router-link></li>
                                         <li class="w-icon">
                                             <a href="#"><i class="fa fa-random"></i></a>
                                         </li>
@@ -82,9 +82,9 @@
                                 </div>
                                 <div class="pi-text">
                                     <div class="catagory-name">Towel</div>
-                                    <a href="#">
+                                    <router-link to="/product">
                                         <h5>Converse Shoes</h5>
-                                    </a>
+                                    </router-link>
                                     <div class="product-price">
                                         $34.00
                                     </div>
